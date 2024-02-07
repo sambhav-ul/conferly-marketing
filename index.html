@@ -19,7 +19,9 @@
 <body>
   <!-- Navbar -->
   <nav class="navbar navbar-expand-lg">
-    <div class="container"> <a class="navbar-brand navbar-logo" href="#"> <strong>Conferly</strong> </a>
+    <div class="container"> <a class="navbar-brand navbar-logo white" href="#"> <img src="" width="70px" alt=""> 
+      <!-- <strong>Conferly</strong>  -->
+    </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span
           class="fas fa-bars"></span> </button>
@@ -29,7 +31,7 @@
           <li class="nav-item"> <a class="nav-link" href="#" data-scroll-nav="1">About</a> </li>
           <li class="nav-item"> <a class="nav-link" href="#" data-scroll-nav="2">Features</a> </li>
           <!-- <li class="nav-item"> <a class="nav-link" href="#" data-scroll-nav="3">Team</a> </li> -->
-          <!-- <li class="nav-item"> <a class="nav-link" href="#" data-scroll-nav="4">Testimonials</a> </li> -->
+          <li class="nav-item"> <a class="nav-link" href="#" data-scroll-nav="4">Testimonials</a> </li>
           <!-- <li class="nav-item"> <a class="nav-link" href="#" data-scroll-nav="5">Faq</a> </li> -->
           <li class="nav-item"> <a class="nav-link" href="#" data-scroll-nav="6">Contact</a> </li>
         </ul>
@@ -48,7 +50,7 @@
               <p class="banner-text white">Conferly is an online platform designed to enhance the process of online
                 education. Here, students can register and enroll themselves in the coaching sessions they are
                 interested in.</p>
-              <a href="#" class="about-btn">Book a demo</a>
+              <a href="#" class="cta-btn">Book a demo</a>
               <!-- <ul>
               <li><a href="#"><img src="images/appstore.png" class="wow fadeInUp" data-wow-delay="0.4s"/></a></li>
               <li><a href="#"><img src="images/playstore.png" class="wow fadeInUp" data-wow-delay="0.7s"/></a></li>
@@ -114,11 +116,25 @@
               <div class="col-md-4">
                 <div class="icon-box wow fadeInUp" data-wow-delay="0.6s"> <i class="fa fa-bolt" aria-hidden="true"></i>
                   <h5>Event Analytics</h5>
-                  <p> Analyze your event performance and feedback with detailed reports and surveys.
+                  <p>Analyze your event performance and feedback with detailed reports and surveys.
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="icon-box wow fadeInUp" data-wow-delay="0.6s"> <i class="fa fa-bolt" aria-hidden="true"></i>
+                  <h5>Event Analytics</h5>
+                  <p>You can also integrate Conferly with your favorite tools and platforms, such as Google Calendar,
+                    Zoom, Slack, and more.
                   </p>
                 </div>
               </div>
             </div>
+            <p class="wow fadeInUp" data-wow-delay="0.6s">Conferly is more than just a conferencing tool, it's a
+              platform for online learning and engagement.
+              Whether you want to teach, train, present, or network, Conferly can help you achieve your goals and
+              connect with your audience.
+            </p>
+            <h5 class="wow fadeInUp" data-wow-delay="0.6s" style="color: #51555a;">Ready to try Conferly?</h5>
             <a href="#" class="about-btn">Book a demo</a>
           </div>
         </div>
@@ -381,12 +397,11 @@
           <div class="sectioner-header text-center">
             <h3>Contact us</h3>
             <span class="line"></span>
-            <p>Sed quis nisi nisi. Proin consectetur porttitor dui sit amet viverra. Fusce sit amet lorem faucibus,
-              vestibulum ante in, pharetra ante.</p>
+            <p>If you have any query regarding anything about Conferly then please feel free to share with us, just fill out your details, query or concern and  Submit it.</p>
           </div>
           <div class="section-content">
             <div class="row">
-              <div class="col-sm-12 col-md-12 col-lg-8">
+              <div class="col-sm-12 col-md-12 col-lg-12">
                 <form id="contact_form" action="">
                   <div class="row">
                     <div class="col">
@@ -402,7 +417,7 @@
                   <button class="btn-grad w-100 text-uppercase" type="submit" name="button">submit</button>
                 </form>
               </div>
-              <div class="col-sm-12 col-md-12 col-lg-4">
+              <!-- <div class="col-sm-12 col-md-12 col-lg-4">
                 <div class="contact-info white">
                   <div class="contact-item media"> <i class="fa fa-map-marker-alt media-left media-right-margin"></i>
                     <div class="media-body">
@@ -430,7 +445,7 @@
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> -->
             </div>
           </div>
         </div>
@@ -470,7 +485,8 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-12">
-          <p>2024 &copy; Conferly. Website Designed by <a href="http://utkallabs.com" target="_blank" rel="">Utkallabs</a></p>
+          <p>2024 &copy; Conferly. Website Designed by <a href="http://utkallabs.com" target="_blank"
+              rel="">Utkallabs</a></p>
         </div>
       </div>
     </div>
@@ -517,7 +533,7 @@
         navbar = $(".navbar");
 
       if (bodyScroll > 50) {
-        $('.navbar-logo img').attr('src', 'images/logo-black.png');
+        $('.navbar-logo img').attr('src', 'images/logo.png');
         navbar.addClass("nav-scroll");
 
       } else {
@@ -531,10 +547,10 @@
         navbar = $(".navbar");
 
       if (bodyScroll > 50) {
-        $('.navbar-logo img').attr('src', 'images/logo-black.png');
+        $('.navbar-logo img').attr('src', 'images/logo.png');
         navbar.addClass("nav-scroll");
       } else {
-        $('.navbar-logo img').attr('src', 'images/logo-white.png');
+        $('.navbar-logo img').attr('src', 'images/logo.png');
         navbar.removeClass("nav-scroll");
       }
 
