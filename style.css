@@ -43,7 +43,7 @@ h6 {
   z-index: 1030;
 }
 .navbar .active {
-  color: #5f0099 !important;
+  color: #0f0099 !important;
 }
 .navbar .navbar-brand {
 }
@@ -101,7 +101,7 @@ h6 {
   position: relative;
 }
 .banner {
-  background: #7a60ff;
+  background: #3e6496;
   /* background: linear-gradient(to left, #7a60ff, #cd9ffa); */
   padding: 100px 0px;
   position: relative;
@@ -114,7 +114,7 @@ h6 {
   top: 0;
   width: 100%;
   height: 100%;
-  background: url(images/pattern.png);
+  /* background: url(images/pattern.png); */
 }
 .banner a.weblink {
   color: #ffffff;
@@ -493,14 +493,19 @@ input {
   border-radius: 7px;
 }
 .footer-copy {
-  background: #ffffff;
-  color: #242424;
+  /* background: #ffffff; */
+  background: #7a60ff;
+  color: #F2F2F2;
+  /* color: #242424; */
   font-size: 13px;
   text-align: center;
   padding: 15px 0px;
 }
 .footer-copy p {
   margin-bottom: 0px;
+}
+.footer-copy a {
+color: #b6eeff;
 }
 @media all and (max-width: 991px) {
   .navbar .navbar-collapse {
