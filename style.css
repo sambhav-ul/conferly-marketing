@@ -46,7 +46,7 @@ h6 {
   color: #0f0099 !important;
 }
 .navbar .navbar-brand {
-	color: #FFFFFF;
+  color: #ffffff;
 }
 .navbar .nav-item {
   margin: 0 5px;
@@ -102,20 +102,20 @@ h6 {
   position: relative;
 }
 .cta-btn {
-	color: #F2F2F2;
-	padding: 10px 40px;
-	border: 2px solid #F2F2F2;
-	border-radius: 7px;
-	margin-top: 30px;
-	display: inline-block;
-	font-size: 18px;
-  }
-  .cta-btn:hover {
-	background: #1f6cd1;
-	color: #ffffff;
-	text-decoration: none;
-	border-color: #1f6cd1;
-  }
+  color: #f2f2f2;
+  padding: 10px 40px;
+  border: 2px solid #f2f2f2;
+  border-radius: 7px;
+  margin-top: 30px;
+  display: inline-block;
+  font-size: 18px;
+}
+.cta-btn:hover {
+  background: #1f6cd1;
+  color: #ffffff;
+  text-decoration: none;
+  border-color: #1f6cd1;
+}
 .banner {
   background: #3e6496;
   /* background: linear-gradient(to left, #7a60ff, #cd9ffa); */
@@ -512,7 +512,7 @@ input {
 .footer-copy {
   /* background: #ffffff; */
   background: #3e6496;
-  color: #F2F2F2;
+  color: #f2f2f2;
   /* color: #242424; */
   font-size: 13px;
   text-align: center;
@@ -522,7 +522,7 @@ input {
   margin-bottom: 0px;
 }
 .footer-copy a {
-color: #b6eeff;
+  color: #b6eeff;
 }
 @media all and (max-width: 991px) {
   .navbar .navbar-collapse {
