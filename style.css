@@ -146,24 +146,17 @@ h6 {
 }
 .banner-text {
   padding-right: 80px;
-  margin: 100px 0px 0px;
+  margin: 80px 0px 0px;
+}
+.banner-text h1 {
+  font-size: 48px;
 }
 .banner-text p {
   margin: 40px 0px;
 }
-.banner-text ul {
-  list-style: none;
-}
-.banner-text ul li {
-  display: inline-block;
-  margin: 0px 10px 10px 0px;
-}
-.banner-text ul li a {
-  display: block;
-}
-.banner-text ul li a img {
-  width: 150px;
-  border-radius: 7px;
+.secondary-text {
+  color: #cacaca;
+  margin-top: 30px;
 }
 .img-fluid {
   width: 800px;
