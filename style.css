@@ -43,7 +43,7 @@ h6 {
   z-index: 1030;
 }
 .navbar .active {
-  color: #0f0099 !important;
+  color: #2388ed !important;
 }
 .navbar .navbar-brand {
   color: #ffffff;
@@ -59,7 +59,7 @@ h6 {
   font-size: 13px;
 }
 .navbar .nav-item a:hover {
-  color: #0f0099;
+  color: #2388ed;
 }
 .navbar .nav-link {
   position: relative;
@@ -101,7 +101,7 @@ h6 {
 .nav-scroll .active {
   position: relative;
 }
-.cta-btn {
+/* .cta-btn {
   color: #f2f2f2;
   padding: 10px 40px;
   border: 2px solid #f2f2f2;
@@ -115,7 +115,7 @@ h6 {
   color: #ffffff;
   text-decoration: none;
   border-color: #1f6cd1;
-}
+} */
 .banner {
   background: #3e6496;
   /* background: linear-gradient(to left, #7a60ff, #cd9ffa); */
@@ -130,7 +130,8 @@ h6 {
   top: 0;
   width: 100%;
   height: 100%;
-  /* background: url(images/pattern.png); */
+  background: url(images/banner.jpg) no-repeat center center;
+  background-size: cover;
 }
 .banner a.weblink {
   color: #ffffff;
@@ -150,13 +151,15 @@ h6 {
 }
 .banner-text h1 {
   font-size: 48px;
+  color: #2388ed;
 }
 .banner-text p {
-  margin: 40px 0px;
+  margin: 20px 0px;
+  line-height: 25px;
 }
 .secondary-text {
-  color: #cacaca;
-  margin-top: 30px;
+  color: #555;
+  margin-top: 40px;
 }
 .img-fluid {
   width: 800px;
@@ -175,7 +178,7 @@ h6 {
 .line {
   height: 2px;
   width: 50px;
-  background: #1f6cd1;
+  background: #2388ed;
   display: block;
   margin: 20px auto 20px;
 }
@@ -185,7 +188,7 @@ h6 {
   left: 50%;
   width: 150px;
   height: 2px;
-  border-bottom: 2px dashed #1f6cd1;
+  border-bottom: 2px dashed #2388ed;
   margin-left: -75px;
 }
 .sectioner-header p {
@@ -221,16 +224,16 @@ h6 {
   margin: 0 auto;
 }
 .about-btn {
-  color: #1f6cd1;
+  color: #2388ed;
   padding: 10px 40px;
-  border: 2px solid #1f6cd1;
+  border: 2px solid #2388ed;
   border-radius: 7px;
   margin-top: 30px;
   display: inline-block;
   font-size: 18px;
 }
 .about-btn:hover {
-  background: #1f6cd1;
+  background: #2388ed;
   color: #ffffff;
   text-decoration: none;
 }
@@ -319,10 +322,10 @@ h6 {
   width: 50px;
   height: 50px;
   border-radius: 100px;
-  color: #1f6cd1;
+  color: #2388ed;
   font-size: 18px;
   line-height: 50px;
-  border: 1px solid #1f6cd1;
+  border: 1px solid #2388ed;
   /* border: 1px solid rgb(142, 30, 252); */
 }
 .team {
@@ -343,7 +346,7 @@ h6 {
   margin-bottom: 0px;
 }
 .testimonial {
-  background: #3e6496;
+  background: #2388ed;
   /* background: linear-gradient(to left, #7a60ff, #cd9ffa); */
   padding: 100px 0px;
   position: relative;
@@ -356,7 +359,7 @@ h6 {
   top: 0;
   width: 100%;
   height: 100%;
-  /* background: url(images/pattern.png); */
+  background: url(images/pattern.png);
 }
 .bx-prev {
   left: -90px !important;
@@ -524,10 +527,12 @@ input {
 @media all and (max-width: 991px) {
   .navbar .navbar-collapse {
     overflow: auto;
-    background: rgb(213, 198, 221);
-    color: #fff !important;
+    background: #ffffff;
     text-align: center;
     padding: 10px 0;
+  }
+  .navbar .navbar-collapse li a {
+    color: #111;
   }
   .nav-scroll .navbar-collapse {
     background: #fff !important;
